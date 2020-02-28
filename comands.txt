@@ -1,0 +1,10 @@
+git config --global user.email "shahriarshaon.shahriarshaon5@gmail.com"
+git config --global user.name "Shahriar Shaon"
+
+echo "# GitHub-Learning" >> README.md
+git init
+git add -A
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/shahriarshaon/GitHub-Learning.git
+git push -u origin master
